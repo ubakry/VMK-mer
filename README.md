@@ -1,4 +1,4 @@
-# [VMK-mer] : Standalone tool that converts mutations in VCF file into the k-mer sequences that were affected by these mutations.
+# VMK-mer : Standalone tool that converts mutations in VCF file into the k-mer sequences that were affected by these mutations.
 
 ## Introduction
 A new approach for genome-wide association studies (GWAS) relies of sequencing data instead of microarrays. In this approach, some tools build their association studies based on k-mers frequency that change between healthy and diseased individuals. Instead of counting the k-mers throughout the whole genome, we are building a tools that generates k-mers, of any size, only around the sites of mutations, whether SNPs or indels. This will reduce the required computational power needed for such GWAS studies. Moreover, the output can be used for other disease-networks studies.
@@ -47,7 +47,7 @@ Optional arguments:
 
 ### VMK-mer WORKFLOW 
 <p align="center">
-  <img src="https://github.com/ubakry/VMK-mer/blob/master/vmkmer-workflow.jpg"  width="90%" height="90%">
+  <img src="https://github.com/ubakry/VMK-mer/blob/master/misc/vmkmer-workflow.jpg"  width="90%" height="90%">
 </p>
 
 
